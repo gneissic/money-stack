@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.form-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem;
+}
+
+.form-details{
+    box-shadow: 10px 4px 10px 5px rgb(34, 33, 33);
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    background-color: rgb(248, 242, 242);
+    width: 40vw;
+    height: 70vh;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+.log-in{
+    width: 35vw;
+    height: 70vh;
+    background-color: rgb(202, 193, 193);
+    border-radius: 0.5rem 0rem 0rem 0.5rem; 
+    box-shadow: 10px 4px 10px 5px rgb(66, 65, 65);
+}
+.log-in h1{
+    letter-spacing: 1px;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+}
+.img{
+    height: 50vh;
+    margin-top: 0.8rem;
+}
+ .icon, .eyes{
+    /* height: 1vh; */
+    width: 2rem;
+    position: absolute;
+    margin-left: 0.7rem;
+    font-weight: lighter;
+}
+.eyes{
+    right: 18%;
+}
+.input{
+    height: 4vh;
+    width: 24rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(202, 193, 193);
+    background-color: rgb(202, 193, 193);
+    padding-left: 2rem;
+    outline: none;
+}
+.pass-input, .check, .buttons{
+    margin-top: 1rem;
+}
+.check{
+    margin-top: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+.remember{
+    padding-left: 0.5rem;
+    flex: 1;
+    color: black;
+    font-weight: bold;
+}
+.password{
+    margin-right: 6rem;
+    color: blue;
+    transition: all 1s ease;
+}
+.password:hover{
+    color: red;
+}
+.buttons{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.goolge-icon{
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    left: 0;
+}
+.goolge-btn{
+    font-weight: bold;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    width: 10rem;
+    box-shadow: 0px 1px 10px 3px rgb(63, 62, 62);
+    border: 1px solid white;
+}
+.login-btn{
+    width: 7rem;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.acc{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    text-transform: initial;
+}
+
+.sign-up{
+    text-decoration: none;
+    color: blue;
+    transition: all 1s ease;
+}
+.sign-up:hover{
+    color: red;
+}
